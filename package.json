@@ -1,0 +1,14 @@
+{
+  "name": "testx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx webpack serve --progress --mode development --config node_modules/riser/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "riser": "^0.4.14"
+  }
+}
