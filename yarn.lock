@@ -4868,10 +4868,10 @@ rimraf@^5.0.5:
   dependencies:
     glob "^10.3.7"
 
-riser@^0.4.14:
-  version "0.4.14"
-  resolved "https://registry.yarnpkg.com/riser/-/riser-0.4.14.tgz#8acce445a342ad68e4a12b809af3ba528323a090"
-  integrity sha512-5OyS3AaMtWTr4ufJmKBzN2llrarMhTDgKZm2KF9EAFp3Btd0ZaApehPmjlm+rj3BHVplUYtJWh4mS08RyqZJ+A==
+riser@^0.4.23:
+  version "0.4.23"
+  resolved "https://registry.yarnpkg.com/riser/-/riser-0.4.23.tgz#37a84bbb517bf2e1149bc3faffd7c78aae9baea4"
+  integrity sha512-T4ve3T/nZVCapxXa+B42D7/CMRvV+SsbcODKHmeeBGTG4FH28QeoUZcU9eY6TPOFjVQhPT62pdIlx9Z89QexqQ==
   dependencies:
     "@babel/core" "^7.20.12"
     "@babel/preset-env" "^7.20.2"

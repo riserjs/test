@@ -1,11 +1,14 @@
-import React, { useState } from 'react';
+import { useState } from 'react'
+import { Text, Button } from 'riser/interface'
 
 export function Home() {
-  const [input, setInput] = useState('');
+  const [ input, setInput ] = useState( '' )
 
   return (
     <div>
-      home
+      <div>home</div>
+      <Text label='sss' />
+      <Button label='sss' />
     </div>
-  );
+  )
 }
