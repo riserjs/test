@@ -1,0 +1,15 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }, 
+  "eslint.validate": [ "javascript", "javascriptreact", "typescriptreact" ],
+  "files.exclude": {
+    "**/.vscode": false,
+    "**/node_modules": false,
+    "**/dist": false,
+    "**/package-lock.json": false,
+    "**/yarn.lock": false,
+    "**/eslint.config.mjs": false,
+    "**/.gitignore": false,
+  }
+}

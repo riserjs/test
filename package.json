@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "old": "npx webpack serve --progress --mode development --config node_modules/riser/webpack.config.js",
     "dev": "npx riser dev"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "riser": "^0.4.23"
-  }
+    "riser": "^0.4.32"
+  },
+  "devDependencies": {}
 }

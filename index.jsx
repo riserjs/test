@@ -1,7 +1,11 @@
-import { routes } from 'riser'
-import { Home } from './home'
+import { config } from 'riser';
+import { Home } from './home';
 
-
-routes( [
-  { path: "*", element: <Home /> },
-] )
+config( {
+  project: process.env.RISER_PROJECT,
+  key: process.env.RISER_KEY,
+  routes: [
+    { path: '*', element: <Home /> },
+    { path: '/test', element: <div>test</div> },
+  ]
+} );
