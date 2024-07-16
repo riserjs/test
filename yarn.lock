@@ -1052,6 +1052,18 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
   integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
 
+"@emotion/is-prop-valid@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-1.2.2.tgz#d4175076679c6a26faa92b03bb786f9e52612337"
+  integrity sha512-uNsoYd37AFmaCdXlg6EYD1KaPOaRWRByMCYzbKUX4+hhMfrxdVSelShywL4JVaAeM/eHUOSprYBQls+/neX3pw==
+  dependencies:
+    "@emotion/memoize" "^0.8.1"
+
+"@emotion/memoize@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.8.1.tgz#c1ddb040429c6d21d38cc945fe75c818cfb68e17"
+  integrity sha512-W2P2c/VRW1/1tLox0mVUalvnWXxavmv/Oum2aPsRcoDJuob75FC3Y8FbpfLwUegRcxINtGUMPq0tFCvYNTBXNA==
+
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz#a23514e8fb9af1269d5f7788aa556798d61c6b59"
@@ -4687,16 +4699,17 @@ rimraf@^5.0.5:
   dependencies:
     glob "^10.3.7"
 
-riser@^0.4.32:
-  version "0.4.32"
-  resolved "https://registry.yarnpkg.com/riser/-/riser-0.4.32.tgz#5f742061af0094a748f01d8a5277c6bfc6e5c92a"
-  integrity sha512-Hg9fukAp5Rb2rBTMtRtCakbomdSADFtkLWFfGWko1M4LBhnekbm06F4m8NWRyRAgMq308hCGpCSZuepqBERSoA==
+riser@^0.4.33:
+  version "0.4.33"
+  resolved "https://registry.yarnpkg.com/riser/-/riser-0.4.33.tgz#25a1037d485d808cf463f3e1f4a4ff99d9bb51b7"
+  integrity sha512-muz7CS+BF7LCWzC86YoCxWbdzqYtmPQxrnE8ZXBNADUKcEftuCtnpDdx3JEwE/eWV2RYh9hoLf/+x0ze/y8PBA==
   dependencies:
     "@babel/core" "^7.20.12"
     "@babel/eslint-parser" "^7.24.8"
     "@babel/preset-env" "^7.20.2"
     "@babel/preset-react" "^7.18.6"
     "@babel/preset-typescript" "^7.18.6"
+    "@emotion/is-prop-valid" "^1.2.2"
     "@fortawesome/fontawesome-svg-core" "^6.5.1"
     "@fortawesome/free-brands-svg-icons" "^6.5.1"
     "@fortawesome/free-regular-svg-icons" "^6.5.1"

@@ -2,8 +2,7 @@ import { config } from 'riser';
 import { Home } from './home';
 
 config( {
-  project: process.env.RISER_PROJECT,
-  key: process.env.RISER_KEY,
+  token: process.env.RISER_TOKEN,
   routes: [
     { path: '*', element: <Home /> },
     { path: '/test', element: <div>test</div> },
